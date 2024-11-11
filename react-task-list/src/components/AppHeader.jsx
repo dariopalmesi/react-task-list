@@ -1,5 +1,10 @@
 export default function AppHeader() {
+    const nameApp = 'Task Manager'
+
     return (
-        <h1>React Task List</h1>
+        <header>
+            <h1>{nameApp}</h1>
+        </header>
+
     )
 }
